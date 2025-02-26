@@ -3,9 +3,9 @@ import {FaFacebook, FaTiktok, FaInstagram, FaEnvelope, FaWhatsapp, FaEvernote} f
 
 export default function Footer() {
     return (<>
-        <footer className="flex justify-around pt-2 pb-4 px-8 mx-auto bg-zinc-100">
+        <footer className="flex justify-around pt-2 pb-4 px-8 mx-auto bg-pumpkin rounded-t-md">
             <div>
-                <h1 className="text-2xl">Kitchen Hell</h1>
+                <h1 className="text-2xl font-monomakh font-bold">Kitchen Hell</h1>
                 <address className="text-sm">
                     <p>Jalan Neraka No. 66</p>
                     <p>Kecamatan Pedas, Kota Sambal</p>
@@ -28,12 +28,12 @@ export default function Footer() {
                 <h1 className="text-2xl">Follow Us</h1>
                 <ul className="flex flex-col gap-2">
                     <li>
-                        <Link href={"https://www.facebook.com"} className="text-blue-400 rounded-md flex items-center">
+                        <Link href={"https://www.facebook.com"} className="text-blue-primary rounded-md flex items-center">
                             <FaFacebook className="text-xl" /> <span>kitchen Hell</span>
                         </Link>
                     </li>
                     <li>
-                        <Link href={"https://www.instagram.com"} className="text-red-500 rounded-md flex items-center">
+                        <Link href={"https://www.instagram.com"} className="text-pink-600 rounded-md flex items-center">
                             <FaInstagram className="text-xl" /> <span>kitchen_hell</span>
                         </Link>
                     </li>
